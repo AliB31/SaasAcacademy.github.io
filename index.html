@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"content="width=device-width,intial-scale=1.0">
+    <title>SaaS Academy</title>
+
+    <style>
+        header {
+    background-color: #F6F4EB;
+
+}
+
+#logo img {
+    animation: breatheAnimation 4s infinite;
+}
+
+#logo {
+    text-align: left;
+}
+
+#logo  {
+    display: inline;
+    margin: 20px;
+    width: 200px; 
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-size: 20px;
+    background-color:#F6F4EB;
+    text-align: center; /* Center-align text */
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    margin-bottom: -15px;
+    font-family:Arial;
+    
+}
+
+#headertitle{
+    margin-top: -20px;
+    font-family:'Arial'
+}
+
+#special_id{
+    color: black;
+
+}
+
+h2{
+    color: brown;
+    font-size: 30px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+    
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+
+.navbar li{
+    
+    float:right;
+
+}
+
+#About{
+    color: brown;
+    font-size: 35px;
+    padding: 15px;
+    text-align: left;
+}
+
+#aboutdesc{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 0px;
+    text-align: justify;
+}
+
+img{
+    margin: -15px;
+    width: 320px;
+    height: 200px;
+    
+}
+
+#call{
+    margin-top: -13px;
+    margin-bottom: -18px;
+}
+
+button.enroll-button {
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            animation: bounceAnimation 2s infinite;
+            background: linear-gradient(45deg, #1E90FF, #00BFFF, #87CEEB);
+            background-size: 200% 100%;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        @keyframes bounceAnimation {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px); /* Adjust the bounce height as needed */
+            }
+        }
+
+  .gray-bg {
+            background-color: gray;
+            padding: 10px; /* Adjust padding as needed */
+            border-radius: 5px;
+        }
+        
+                #Contact {
+            text-align: left;
+        }
+        
+               #headertitle {
+            font-size: 60px; /* Font size */
+            font-family: 'Arial', sans-serif; /* Font family */
+            text-transform: uppercase; /* Text in uppercase */
+            letter-spacing: 4px; /* Adjust letter spacing as needed */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow */
+            /* Gradient background */
+            background-image: linear-gradient(to bottom, #1E90FF, #00BFFF, #87CEEB);
+        -webkit-background-clip: text;
+            color: transparent;
+        } 
+        
+                .course-options {
+            text-align: left;
+            margin: 30px;
+        }
+
+        .course-option {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #1E90FF;
+            border-radius: 5px;
+            margin: 10px;
+            width: 300px;
+        }
+
+        .course-title {
+            font-size: 24px;
+            color: #1E90FF;
+            font-weight: bold;
+        }
+
+        .course-price {
+            font-size: 18px;
+            color: #00BFFF;
+        }
+
+        .course-description {
+            font-size: 16px;
+        }
+        
+        .enroll-button {
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid #1E90FF;
+    border-radius: 5px;
+    width: 300px;
+    animation: bounceAnimation 2s infinite;
+    overflow: hidden; /* Add this line to hide the border under the background */
+}
+
+.enroll-button button {
+    font-size: 30px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #1E90FF, #00BFFF, #87CEEB);
+    background-size: 100% 200%;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    width: 100%; /* Set the width to 100% to cover the entire button area */
+}
+
+@keyframes bounceAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the bounce height as needed */
+    }
+}
+
+
+
+</style>
+
+</head>
+
+<header>
+    <!-- Divs are block level elements. They take the entire horizontal space -->
+    <div id="logo">
+
+    <!-- img are also block level elements.-->
+   
+    <img id="logo"  src="SAAS LOGO.png" 
+    height="200"
+    alt="Logo of SaaS Academy">
+    
+    </div>
+
+<h1 id="headertitle"> SaaS Academy</h1>
+<div>
+<p id="special_id">Build Your Own Software and Start Your First Software Business</p>
+</div>
+
+<nav class="navbar">
+    <ul> 
+        <li><a href="#Contact">Contact Us</a></li>
+        <li><a href="#About">About</a></li>
+    </ul>
+</nav>
+
+</header>
+<br>
+<br>
+<body>
+    
+    <video controls width="360" height="360">
+        <source src="SaaS.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+<p>Unlock your potential with expert training at SaaS Academy. Level up your skills in software development and become a coding pro.</p>
+          <div class="enroll-button">
+    <button type="button">Enroll Now</button>
+</div>
+
+
+ 
+
+          
+          <div class="course-options">
+        <div class="course-option">
+            <div class="course-title">Mini Course</div>
+            <div class="course-price">$599</div>
+            <div class="course-description">
+                <p>Limited resources included</p>
+                <p>Access to selected materials</p>
+            </div>
+        </div>
+
+        <div class="course-option">
+            <div class="course-title">Full Course</div>
+            <div class="course-price">$799</div>
+            <div class="course-description">
+                <p>Lifetime access to all resources</p>
+                <p>Complete course materials</p>
+            </div>
+        </div>
+    </div>
+
+          
+          <p class="gray-bg">HERE'S WHAT'S INCLUDED IN THE COURSE:</p>
+          <p>COMPLIMENTARY 1:1 MENTORSHIP CALLS</p>
+          <p>FULL SETUP GUIDE</p>
+          <p>COMPLETE CLIENT AQUISITION GUIDE</p>
+          <p>YOUR OWN DONE FOR YOU WEBSITE</p>
+          <p>ENTIRE LIBRARY OF AFFILIATE RESOURCES</p>
+          <p>MOBILE APP FOR YOU AND YOUR CLIENTS</p>
+
+
+    <section>
+
+         <h2 id="Contact">Contact Us</h2>
+         <p id="call">Call us at +639154114594</p>
+         <p >Email us at saas.academy@gmail.com</p>
+
+    </section>
+
+
+
+</body>
+
+<footer>
+
+<div id="About">About Us
+    <p id="aboutdesc">Welcome to SaaS Academy, your premier destination for software education and training. Our academy is dedicated to providing top-notch courses and resources to help individuals and businesses thrive in the ever-evolving software industry.
+
+With a team of experienced instructors and a comprehensive curriculum, we offer a wide range of courses that cover various aspects of software development, project management, and more. Whether you are a beginner looking to learn the basics or an experienced professional seeking to enhance your skills, SaaS Academy is here to support your journey towards success. </p>
+</div>
+
+
+
+</footer>
+
+</html>
+ 
